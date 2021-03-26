@@ -1,12 +1,11 @@
 {
-  "name": "nextjs-blog",
+  "name": "psm",
   "version": "0.1.0",
-  "private": true,
+  "private": "false",
   "scripts": {
     "dev": "next dev",
-    "build": "next start",
-    "start": "next start -p $PORTggit",
-    "heroku-postbuild": "npm run build"
+    "build": "next build",
+    "start": "next start"
   
   },
   "dependencies": {
